@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Boom</title>
+
+</head>
+<body>
+ 
+    <p id="res"></p>
+    <script>
+
+var x; //undefined
+var result= " "; 
+{
+    let x=0; 
+    while (x<=5) {
+        result = result + "<br>Number: " + x; 
+                                        x++; 
+    }
+    document.getElementById("res").innerHTML=result;
+}
+document.write("x value outside block: " + x );
+
+
+
+    </script>
+
+
+    
+
+
+</body>
+</html>
